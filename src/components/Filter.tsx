@@ -28,6 +28,7 @@ export function Filter({
       bgColor="gray.600"
       flex={1}
       size="sm"
+      {...rest}
     >
       <Text color={isActive ? colorType : "gray.300"} fontSize="sm" textTransform="uppercase">{title}</Text>
     </NativeBaseButton>
